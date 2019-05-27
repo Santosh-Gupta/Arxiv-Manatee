@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://snag.gy/UNEu5z.jpg">
+  <img src="https://snag.gy/cwnUGB.jpg">
 </p>
 
 
