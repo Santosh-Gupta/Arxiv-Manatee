@@ -33,7 +33,8 @@ Possible solution 2. pickledb https://pythonhosted.org/pickleDB/
 
 Pssible solution 3. sqlitedict https://pypi.org/project/sqlitedict/
 
-### -Take text from extracted Arxiv papers and seperate them into sections/paragraph. Store each section/paragraph as a row in a row in a sqlite database. 
+### -Take text from extracted Arxiv papers and seperate them into sections/paragraph. Store each section/paragraph as a row in a row in a sqlite database. Should also contain Title, and arxiv link as seperate rows. Possibly abstract as well. 
+
 Possibly helpful resources
 
 https://github.com/karpathy/arxiv-sanity-preserver/blob/master/parse_pdf_to_text.py
