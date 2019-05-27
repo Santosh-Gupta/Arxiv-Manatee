@@ -27,6 +27,8 @@ Pssible solution 3. sqlitedict https://pypi.org/project/sqlitedict/
 -Take text from extracted Arxiv papers and seperate them into sections/paragraph. Store each section/paragraph as a row in a row in a sqlite database. 
 Possibly helpful resources
 https://github.com/karpathy/arxiv-sanity-preserver/blob/master/parse_pdf_to_text.py
+https://github.com/arxiv-vanity
+https://github.com/arxiv-vanity/engrafo
 
 -Figure out most efficient way to do embedding similarity search for large amounts of data. 
 Possible solutions 1 search through hdf5 data stored on disk
