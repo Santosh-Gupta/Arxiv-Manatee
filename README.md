@@ -45,8 +45,15 @@ https://github.com/karpathy/arxiv-sanity-preserver/blob/master/fetch_papers.py
 Possible solution 1: sqlite
 
 Possible solution 2. pickledb https://pythonhosted.org/pickleDB/
+it looks like this is what arxiv-sanity uses
+https://github.com/karpathy/arxiv-sanity-preserver/blob/master/fetch_papers.py
+"The script is intended to enrich an existing database pickle (by default db.p)"
+`	from utils import Config, safe_pickle_dump`
+` # lets load the existing database to memory
+  try:
+    db = pickle.load(open(Config.db_path, 'rb'))`
 
-Pssible solution 3. sqlitedict https://pypi.org/project/sqlitedict/
+Possible solution 3. sqlitedict https://pypi.org/project/sqlitedict/
 
 ### -Take text from extracted Arxiv papers and seperate them into sections/paragraph. Store each section/paragraph as a row in a row in a sqlite database. Should also contain Title, and arxiv link as seperate rows. Possibly abstract as well. 
 
